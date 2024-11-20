@@ -1,7 +1,6 @@
 # Ignorar entornos virtuales
 venv/
 .env/
-venv-proyarqui/
 
 # Archivos y carpetas temporales de Python
 __pycache__/
@@ -34,10 +33,3 @@ results/
 build/
 dist/
 
-# Archivos grandes o sensibles (opcional)
-*.jpg
-*.png
-*.gif
-*.mp4
-*.csv
-*.zip
