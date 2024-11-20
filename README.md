@@ -38,9 +38,20 @@ Para instalar las dependencias necesarias en un entorno virtual, siga los siguie
   pip install -r requirements.txt
   ```
 
-1. Verifique que las dependencias se hayan instalado correctamente:
+4. Verifique que las dependencias se hayan instalado correctamente:
   ```bash
   pip list
   ```
+4. Para desactivar el entorno virtual:
+  ```bash
+  deactivate
+  ```
 
 Ahora su entorno virtual está configurado y listo para usar con todas las dependencias necesarias para la aplicación de procesamiento de imágenes.
+
+# Ejecución de la aplicación
+
+Con el entorno virtual activato ejecutar:
+```bash
+python main.py
+```
