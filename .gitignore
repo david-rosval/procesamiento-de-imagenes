@@ -1,0 +1,43 @@
+# Ignorar entornos virtuales
+venv/
+.env/
+venv-proyarqui/
+
+# Archivos y carpetas temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de entornos y dependencias
+*.env
+Pipfile
+Pipfile.lock
+
+# Archivos de logs
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos y carpetas generadas automáticamente
+results/
+
+# Ignorar configuraciones del editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar dependencias descargadas directamente
+*.egg-info/
+build/
+dist/
+
+# Archivos grandes o sensibles (opcional)
+*.jpg
+*.png
+*.gif
+*.mp4
+*.csv
+*.zip
