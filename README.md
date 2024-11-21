@@ -42,7 +42,7 @@ Para instalar las dependencias necesarias en un entorno virtual, siga los siguie
   ```bash
   pip list
   ```
-4. Para desactivar el entorno virtual:
+5. Para desactivar el entorno virtual:
   ```bash
   deactivate
   ```
